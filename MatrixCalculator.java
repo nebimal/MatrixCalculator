@@ -19,7 +19,9 @@ public class MatrixCalculator {
         n = Integer.parseInt(input.nextLine());
         a = new int[n][n];
         b = new int[n][n];
+
         a1 = n * n;
+        
         System.out.println("Please enter "+a1+" values for matrixes a and b.");
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
