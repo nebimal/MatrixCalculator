@@ -32,6 +32,7 @@ public class MatrixCalculator {
             for(int j = 0; j < n; j++){
                 System.out.print("MatrixB["+i+"]["+j+"]: ");
                 b[i][j] = Integer.parseInt(input.nextLine());
+                
             }
         }
         c = MatrixSum(a, b, n);
